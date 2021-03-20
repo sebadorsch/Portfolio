@@ -1,100 +1,98 @@
-/* Colores
-#f5f9fa
-36bed9
 
-*/
+/*-----------------------SLIDER--------------------*/
 
-
-#body{
-    color: #4b4c4d;
-    position: relative;
-    line-height: 1.4;
-    margin: 0;
-}
-#header{
-    color: #f5f9fa;
-    padding: 10rem 0 5rem;
-    background: linear-gradient(#323333,#2a2b2b);
-    position: relative;
-    overflow: hidden;
-    display: block;
-    box-sizing: border-box;
-}
-.text-center{
-    text-align: center;
-}
-
-.container-fluid{
-    position: relative;
-    margin-top: 0%;
-    margin-right: auto;
-    margin-left: auto;
-    color: #f5f9fa;
-}
-
-hr {
-    color:#3E94B2
-    border: 0; 
-    height: 2px; 
-    text-align: center; 
-    background-image: linear-gradient(left, #fff, #000, #fff);
+#imagen_header {
+    width: 100%;
+    height: 400px;
+    background: url(/Imagenes/pexels-photo-169573.jpeg) no-repeat center;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
 }
 
 
-#navbar{
-    background: linear-gradient(#3E94B2,#29bad7);
-}
-container-fluid {
-    padding-left: 15px;
-    padding-right: 15px;
+
+/*-----------------------NAVBAR-------------------------*/
+.navbar{
+    background: linear-gradient(#2bb1e0,#26A9D6);
+    box-shadow: 0 0 10px 1px #4b4c4d;
+    font-family: "Baloo Tamma", serif;
 }
 
+.navbar_scroll{
+    color: #ecedef;
+}
 
-#bg_video{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-}
-.video{
-    display: inline-block;
-    vertical-align: baseline;
-    object-fit: contain;
-    z-index: 0;
-}
-#copyright{
-    color:black;
-}
-.soluturing{
-    color: black;
-}
-a.soluturing:hover{
-    text-decoration: none;
-    color: #E78D1E;
-    font-weight: 700;
-}
-.soluturing.mt-0 {
-    margin-top: 100 !important;
-}
-#container__footer__arriba{
-    padding-top: 20px;
-}
-#container__footer .row.row_copyright{
-    border-top: 2px solid #3E94B2;
+.navbar-brand{
     padding-top: 10px;
-    margin-top: 10px;
+    padding-left: 20px;
+}
+.sebastian_dorsch{
+    padding-top: 6px;
+    color: #f5f9fa;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
 }
 
+
+/*-----------------------PORTFOLIO----------------------*/
+
+#portfolio{
+    background-color: #ecedef;
+    text-align: center;
+    padding-top: 80px;
+    font-family: "Roboto Slab", serif;
+}
+
+#formulario{
+    background-color: #ecedef;
+    padding-top: 50px;
+}
+
+.linea{
+    border: 0; 
+    height: 0; 
+    box-shadow: 0px 0px 7px 2px #26A9D6;
+}
+
+
+/*-----------------------TECNOLOGÍAS----------------------*/
+#tecnologias{
+    background-color: #2bb1e0;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+}
+
+
+/*-----------------------CONTACTO-------------------------*/
+#contacto{
+    background-color: #2bb1e0;
+    padding-top: 40px;
+    font-family: "Roboto Slab", serif;
+}
+
+.linea3{
+    border: 0; 
+    height: 0; 
+    box-shadow: 0px 0px 7px 2px #26A9D6;
+}
+
+
+/*-----------------------FORMULARIO-------------------------*/
+#contacto{
+    font-family: "Roboto Slab", serif;
+}
+
+
+/*-----------------------FOOTER-------------------------*/
 
 #footer{
     background: linear-gradient(#323333,#2a2b2b);
     height: auto;
     text-align: center;
-}
-#texto_footer{
-    
 }
 
 #columna_copyright{
@@ -109,7 +107,20 @@ a.soluturing:hover{
 }
 
 .sebadorsch:hover{
-    color: #36bed9;
+    color: #2bb1e0;
     text-decoration: none;
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*   #fca120    */
