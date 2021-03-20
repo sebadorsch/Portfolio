@@ -10,7 +10,17 @@
     background-attachment: fixed;
 }
 
+.texto_header1{
+    text-align: right;
+    transform: translate(-425px,150px);
+    font-family: 'Zeyada', cursive;
+}
 
+.texto_header2{
+    text-align: right;
+    transform: translate(-250px,120px);
+    font-family: 'Zeyada', cursive;
+}
 
 /*-----------------------NAVBAR-------------------------*/
 .navbar{
