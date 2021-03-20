@@ -42,7 +42,7 @@
     background-color: #ecedef;
     text-align: center;
     padding-top: 90px;
-    font-family: "Pangolin", serif;
+    font-family: 'Playfair Display', serif;
 }
 
 #formulario{
@@ -63,7 +63,7 @@
     text-align: center;
     color: white;
     padding-top: 90px;
-    font-family: "Pangolin", serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -71,7 +71,7 @@
 #contacto{
     background-color: #2bb1e0;
     padding-top: 40px;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .linea3{
@@ -83,7 +83,7 @@
 
 /*-----------------------FORMULARIO-------------------------*/
 #contacto{
-    font-family: "Roboto Slab", serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -115,12 +115,3 @@
 
 
 
-
-
-
-
-
-
-
-
-/*   #fca120    */
