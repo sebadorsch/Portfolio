@@ -7,7 +7,7 @@
 #imagen_header {
     width: 100%;
     height: 400px;
-    background: url(/Imagenes/bannerdeprueba.jpg) no-repeat center;
+    background: url(banner.jpeg) no-repeat center;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -91,14 +91,35 @@
     height: 0; 
     box-shadow: 0px 0px 7px 2px #26A9D6;
 }
-
+#boton_contacto{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    font-size: 15;
+    font-family: 'Bree Serif', serif;
+}
 
 /*-----------------------FORMULARIO-------------------------*/
+#formulario{
+    border: 100px 0 100px 0;
+    height: auto;
+}
 #contacto{
     font-family: 'Playfair Display', serif;
 }
 
-
+#banner_contacto {
+    width: 100%;
+    height: 280px;
+    background: url(/Imagenes/buzon.jpeg) no-repeat center;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+#boton_enviar{
+    padding: 10px 40px;
+    padding-top: 15px;
+}
 /*-----------------------FOOTER-------------------------*/
 
 #footer{
