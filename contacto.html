@@ -15,10 +15,12 @@
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 
     <title>Sebastian Dorsch</title>
+    
   </head>
 
 
@@ -33,20 +35,17 @@
 
     <!------------------NAVBAR-------------------->
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-toggleable-sm" id="navbar">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-toggleable-sm justify-content-end" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#imagen_header">
-          <img src="/Imagenes/code.png" alt="" width="50" height="50">
-          <a class="sebastian_dorsch" href="https://www.linkedin.com/in/sebastian-dorsch/">Sebastián Dorsch</a>
-        </a>
+          <img src="/Imagenes/code.png" alt="" width="50" height="50"></a>
+          <a class="sebastian_dorsch" href="https://www.linkedin.com/in/sebastian-dorsch/" target="_blank">Sebastián Dorsch</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div id="items_navbar" class="navbar-nav ms-auto">
-            <a class="navbar-brand" href="index.html">Portfolio</a>
-            <a class="navbar-brand" href="index.html">Tecnologías</a>
-            <a class="navbar-brand" href="index.html">Contacto</a>
+            <a class="navbar-brand" href="/index.html">Inicio</a>
           </div>
         </div>
       </div>
@@ -60,46 +59,45 @@
         <div class="seccion_container">
             <div class="container">
                 <form action="enviar.php" method="post">
+ 
+                  <div class="row justify-content-md-center">
+                      <div class="form group col-sm-6">
+                          <label for="name">Nombre y Apellido</label>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese su nombre y apellido...">  
+                      </div>
+                      <div class="form group col-sm-6">
+                          <label for="phone">Teléfono</label>
+                          <input type="text" name="phone" class="form-control" id="phone" placeholder="Ingrese su teléfono...">
+                      </div>
+                  </div>
 
-                    <div class="row justify-content-md-center">
-                        <div class="form group col-sm-6">
-                            <label for="nombre_apellido">Nombre y Apellido</label>
-                            <input type="text" name="nombre_apellido" class="form-control" id="nombre_apellido" placeholder="Ingrese su nombre y apellido...">
-                        </div>
-                        <div class="form group col-sm-6">
-                            <label for="telefono">Teléfono</label>
-                            <input type="text" name="telefono" class="form-control" id="telefono" placeholder="Ingrese su teléfono...">
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-md-center">
-                        <div class="form group col-sm-6">
-                            <label for="email"> <br> Email</label>
-                            <input type="text" name="email" class="form-control" id="email" placeholder="Ingrese su email...">
-                        </div>
-                        <div class="form group col-sm-6">
-                            <label for="asunto"> <br> Asunto</label>
-                            <input type="text" name="asunto" class="form-control" id="asunto" placeholder="Ingrese el asunto...">
-                        </div>
-                    </div>
+                  <div class="row justify-content-md-center">
+                      <div class="form group col-sm-6">
+                          <label for="mail"> <br> Email</label>
+                          <input type="text" name="mail" class="form-control" id="mail" placeholder="Ingrese su email...">
+                      </div>
+                      <div class="form group col-sm-6">
+                          <label for="asunto"> <br> Asunto</label>
+                          <input type="text" name="asunto" class="form-control" id="asunto" placeholder="Ingrese el asunto...">
+                      </div>
+                  </div>
 
 
-                    <div class="row justify-content-md-center">
-                        <div class="form-group col-sm-12">
-                            <label for="mensaje" class="col-form-label"> <br> Mensaje:</label>
-                            <textarea id="mensaje" name="mensaje" class="form-control" rows="10"></textarea>
-                        </div>
-                    </div>
+                  <div class="row justify-content-md-center">
+                      <div class="form-group col-sm-12">
+                          <label for="message" class="col-form-label"> <br> Mensaje:</label>
+                          <textarea id="message" name="message" class="form-control" rows="10"></textarea>
+                      </div>
+                  </div>
 
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Enviar</button>
-                    </div>
+                  <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
 
                 </form>
             </div>
         </div>
     </div>
-
 
 
 
