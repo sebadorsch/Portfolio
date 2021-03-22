@@ -46,8 +46,12 @@
     font-size: 20px;
     font-weight: 500;
 }
-
-
+.sebastian_dorsch:hover{
+    color: #FE7613;
+}
+#navbarNavAltMarkup:hover{
+    color: #FE7613;
+}
 /*-----------------------PORTFOLIO----------------------*/
 
 #portfolio{
@@ -110,7 +114,7 @@
 
 #banner_contacto {
     width: 100%;
-    height: 280px;
+    height: 400px;
     background: url(/Imagenes/buzon.jpeg) no-repeat center;
     background-size: cover;
     background-position: bottom;

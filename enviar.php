@@ -20,5 +20,11 @@
     $asunto = 'Mensaje de la página del portfolio';
     mail($para, $asunto, utf8_decode($message), $header);
 
+    if (!$mail->send()) {
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
+    } else {
+        echo 'The email message was sent.';
+    }
+
     header("Location:index.html");
 ?>
