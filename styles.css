@@ -58,20 +58,12 @@
     background-color: #ecedef;
     text-align: center;
     padding-top: 90px;
+    padding-bottom: 50px;
     font-family: 'Playfair Display', serif;
 }
-
-#formulario{
-    background-color: #ecedef;
-    padding-top: 50px;
+.card{
+    margin: 20px 0px;
 }
-
-.linea{
-    border: 0; 
-    height: 0; 
-    box-shadow: 0px 0px 7px 2px #26A9D6;
-}
-
 
 /*-----------------------TECNOLOGÍAS----------------------*/
 #tecnologias{
@@ -81,7 +73,13 @@
     padding-top: 90px;
     font-family: 'Playfair Display', serif;
 }
+.titulo_tecnologias{
+    font-size: 60px;
+}
 
+.item{
+    padding: 0px 15px;
+}
 
 /*-----------------------CONTACTO-------------------------*/
 #contacto{
@@ -90,11 +88,6 @@
     font-family: 'Playfair Display', serif;
 }
 
-.linea3{
-    border: 0; 
-    height: 0; 
-    box-shadow: 0px 0px 7px 2px #26A9D6;
-}
 #boton_contacto{
     padding-left: 50px;
     padding-right: 50px;
@@ -102,7 +95,9 @@
     font-size: 15;
     font-family: 'Bree Serif', serif;
 }
-
+#columna_boton{
+    padding: 40px 0px;
+}
 /*-----------------------FORMULARIO-------------------------*/
 #formulario{
     border: 100px 0 100px 0;
